@@ -1,0 +1,77 @@
+form{
+    width: 600px;
+    margin: 200px auto;
+
+}
+
+div{
+    width: 100%;
+    margin: 15px auto;
+    display: none;
+}
+
+label{
+    display: block;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+input{
+    width:96%;
+    padding: 10px;
+    border: 1px solid #797979;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(90deg, royalblue, lightgreen);
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    float: left;
+
+
+}
+
+span{
+    display: block;
+    color: red;
+    font-size: italic;
+    margin-left: 20px;
+
+
+
+}
+
+input[type="radio"]{
+    display: inline-flex;
+    width: 20px;
+
+}
+
+section{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    float: right;
+
+}
+
+p{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ededed;
+    margin: 2px 5px;
+    display: inline-flex;
+}
