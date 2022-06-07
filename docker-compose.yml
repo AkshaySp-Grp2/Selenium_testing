@@ -1,0 +1,26 @@
+version: "3"
+services:
+
+  master:
+    build: ./src_py
+    command: python -u main.py 
+    ports:
+      - "5035:5035"
+    volumes:
+      - .:/app-data
+    links:
+      - slave
+
+  slave: 
+    build: .
+    
+    
+    
+
+    volumes:
+      - type: bind
+        source: C:\Users\sys\Downloads\Python-Code\Selenium_Test
+        target: /usr/share/nginx/html
+    #   - . /usr/share/nginx/html 
+    ports:
+      - 1085:80
