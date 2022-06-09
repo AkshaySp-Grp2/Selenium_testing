@@ -84,8 +84,8 @@ class Insert():
 
 if __name__ =="__main__":
 
-
-    driver = webdriver.Chrome("chromedriver.exe")
+    driver = webdriver.Edge("msedgedriver.exe")
+    # driver = webdriver.Chrome("chromedriver.exe")
     pp = Insert(driver)
     data = 'data.csv'
     pp.get_data(data=data)
